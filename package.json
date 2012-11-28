@@ -5,7 +5,10 @@
     "version": "0.2.5",
 
     "devDependencies": {
-        "suite.js": "== 0.4.1",
+        "suite.js": "== 0.4.1"
+    },
+
+    "dependencies": {
         "funkit": "== 0.5.1"
     },
 
