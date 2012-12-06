@@ -2,7 +2,7 @@
     "name": "generators.js",
     "description": "Data generators",
     "author": "Juho Vepsalainen <bebraw@gmail.com>",
-    "version": "0.2.6",
+    "version": "0.3.0",
 
     "devDependencies": {
         "suite.js": "== 0.4.1"
