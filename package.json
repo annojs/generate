@@ -2,7 +2,7 @@
     "name": "generators.js",
     "description": "Data generators",
     "author": "Juho Vepsalainen <bebraw@gmail.com>",
-    "version": "0.3.0",
+    "version": "0.3.5",
 
     "dependencies": {
         "funkit": "0.7.7",
