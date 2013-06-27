@@ -3,7 +3,7 @@ var is = require('annois');
 var funkit = require('funkit');
 var suite = require('suite.js');
 
-var g = require('./generators');
+var g = require('./lib');
 
 var partial = funkit.partial;
 var all = funkit.functional.all;
