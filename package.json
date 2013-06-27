@@ -6,7 +6,8 @@
   "dependencies": {
     "funkit": "0.7.7",
     "annois": "0.2.0",
-    "require-dir": "0.1.0"
+    "require-dir": "0.1.0",
+    "annotate": "~0.6.7"
   },
   "devDependencies": {
     "suite.js": "0.6.0"

@@ -26,13 +26,14 @@ function reversability(op, a) {
     return op(op(a)) == a;
 }
 
+/*
 gSuite(g.any, function(res) {
     return true;
-});
+});*/
 gSuite(g.nan, is.nan);
 gSuite(g.fn, is.fn);
-gSuite(g.array, is.array);
-gSuite(g.object, is.object);
+//gSuite(g.array, is.array);
+//gSuite(g.object, is.object);
 gSuite(g.number, is.number);
 gSuite(g.upperCharacter, charCodeBetween(65, 90));
 gSuite(g.lowerCharacter, charCodeBetween(97, 122));
@@ -40,16 +41,21 @@ gSuite(g.character, charCodeBetween(33, 126));
 gSuite(partial(g.string, 10), function(res) {
     return res.length == 10 && allBetween(res, 33, 126);
 });
-gSuite(g.structure, function(res) {
+/*gSuite(g.structure, function(res) {
     return is.array(res) || is.object(res) || is.number(res) || is.string(res);
-});
+});*/
+
+/* TODO: replace with fuzz
 gSuite(g.array(10, partial(g.number, 100)), function(res) {
     return is.array(res) && all(is.number, res);
 });
+*/
+
+/*
 gSuite(g.object(10, partial(g.number, 100), partial(g.number, 100)), function(res) {
     // TODO: check that values are numbers!
     return is.object(res) && all(is.string, Object.keys(res));
-});
+});*/
 
 function numberRangeTest() {
     var numberOfTens = 0;
