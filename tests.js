@@ -69,7 +69,7 @@ function numberRangeTest() {
 suite(numberRangeTest, ['', true]);
 
 function gSuite(gen, inv) {
-    return suite(inv, suite.generate(1,
+    return suite(inv, suite.generate(1000,
         [gen],
         function(op, a, b) {
             return op(a, b);
