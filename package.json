@@ -20,7 +20,7 @@
     "lib": "./lib"
   },
   "repository": {
-    "type": "https",
+    "type": "git",
     "url": "https://github.com/bebraw/generators.js.git"
   },
   "homepage": "https://github.com/bebraw/generators.js",
