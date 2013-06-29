@@ -1,4 +1,4 @@
-[![build status](https://secure.travis-ci.org/bebraw/generators.js.png)](http://travis-ci.org/bebraw/generators.js)
+[![build status](https://secure.travis-ci.org/annojs/generate.png)](http://travis-ci.org/annojs/generate)
 # annogenerate - Data generators
 
 ´annogenerate´ provides various data generators. These are particularly handy for testing. Works well with [suite.js](https://github.com/bebraw/suite.js).
