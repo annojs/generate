@@ -10,7 +10,7 @@
     "annomath": "0.3.0"
   },
   "devDependencies": {
-    "annofuzz": "0.4.4"
+    "annofuzz": "0.4.5"
   },
   "scripts": {
     "test": "node ./tests"
