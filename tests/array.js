@@ -1,12 +1,11 @@
-var fuzz = require('annofuzz');
+var generate = require('../');
+var fuzz = require('annofuzz')(generate);
 var is = require('annois');
 
-var g = require('../');
 
 
-fuzz._amount = 100;
-fuzz(g.array, function(op) {
-    var res = op(100, g.number);
+fuzz(generate.array, function(op) {
+    var res = op(100, generate.number);
 
     return res.filter(is.number).length == res.length;
-});
+}, 100);
