@@ -4,10 +4,10 @@
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
   "version": "0.6.2",
   "dependencies": {
-    "funkit": "0.7.7",
     "annois": "0.3.0",
     "require-dir": "0.1.0",
-    "annotate": "0.7.0"
+    "annotate": "0.7.0",
+    "annomath": "~0.2.0"
   },
   "devDependencies": {
     "annofuzz": "0.2.0"
