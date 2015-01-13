@@ -2,7 +2,7 @@
   "name": "annogenerate",
   "description": "Data generators",
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
-  "version": "0.7.2",
+  "version": "0.8.0",
   "dependencies": {
     "annois": "0.3.0",
     "require-dir": "0.1.0",
