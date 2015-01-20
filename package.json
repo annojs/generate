@@ -9,11 +9,12 @@
     "annomath": "^0.4.1"
   },
   "devDependencies": {
+    "annofuzz": "^0.4.6",
     "require-dir": "^0.1.0",
-    "annofuzz": "^0.4.6"
+    "tap-nyan": "0.0.2"
   },
   "scripts": {
-    "test": "node ./tests"
+    "test": "node ./tests | node_modules/.bin/tnyan"
   },
   "main": "./lib",
   "directories": {
