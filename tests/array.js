@@ -6,7 +6,7 @@ var is = require('annois');
 
 
 fuzz(generate.array, function(op) {
-    var res = op(100, generate.number);
+    var res = op([0, 100], generate.number);
 
     return res.filter(is.number).length === res.length;
 }, 100);
